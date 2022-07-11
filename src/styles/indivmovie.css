@@ -1,0 +1,34 @@
+.moviebox {
+  position: relative;
+  overflow: hidden;
+}
+.moviebox .pic {
+  height: 100%;
+  width: 100%;
+}
+/* .moviebox::after {
+  content: "";
+  top: 100%;
+  left: 2%;
+  width: 100%;
+  opacity: 0;
+} */
+.movieinfo {
+  position: absolute;
+  background-color: rgba(41, 38, 38, 0.7);
+  top: 100%;
+  width: 100%;
+  left: 0%;
+  padding-left: 2%;
+  opacity: 1;
+  color: aliceblue;
+  transition: top 0.5s;
+}
+.movieinfo .year {
+  padding-bottom: 2%;
+}
+.moviebox:hover .movieinfo {
+  top: 85%;
+  left: 0%;
+  opacity: 1;
+}

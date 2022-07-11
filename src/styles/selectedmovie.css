@@ -1,0 +1,23 @@
+.selectedMovie {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.movieinfos {
+  position: absolute;
+  left: 35%;
+  padding-right: 5px;
+  top: 0;
+}
+.movieinfos .title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.movieinfos .plot {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.movieinfos .date {
+  font-weight: bold;
+}
